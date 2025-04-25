@@ -1,2 +1,4 @@
-/open "https://www.youtube.com/watch?v=xvFZjo5PgG0";
 /say "Hello, you have been hacked";
+/open "https://www.youtube.com";
+/delays 10;
+/open "https://www.youtube.com/watch?v=xvFZjo5PgG0";

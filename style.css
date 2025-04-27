@@ -1,67 +1,68 @@
 /* Reset some default styling */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #121212;
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 2rem;
-    background-color: #1e1e1e;
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  }
-  
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .description {
-    margin-bottom: 2rem;
-    font-size: 1rem;
-    color: #aaaaaa;
-  }
-  
-  .download-btn {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    color: #ffffff;
-    background-color: #3a82f7;
-    border: none;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .download-btn:hover {
-    background-color: #2f6cd1;
-  }
-  
-  .small-link {
-    margin-top: 1.5rem;
-    font-size: 0.9rem;
-    color: #888888;
-  }
-  
-  .small-link a {
-    color: #3a82f7;
-    text-decoration: none;
-  }
-  
-  .small-link a:hover {
-    text-decoration: underline;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #aaaaaa;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #3a82f7;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin: 0.5rem 0;
+  width: 220px;
+}
+
+.download-btn:hover {
+  background-color: #2f6cd1;
+}
+
+.small-link {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #888888;
+}
+
+.small-link a {
+  color: #3a82f7;
+  text-decoration: none;
+}
+
+.small-link a:hover {
+  text-decoration: underline;
+}

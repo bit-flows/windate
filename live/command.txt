@@ -1,5 +1,5 @@
-/say "Hello, you have been hacked again"
-/open "https://www.youtube.com"
-/delays 10
-# Put a hashtag for comments
+# 0
+/say "Hello, you have been hacked"
+
+# Rick Roll link
 /open "https://www.youtube.com/watch?v=xvFZjo5PgG0"

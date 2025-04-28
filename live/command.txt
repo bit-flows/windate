@@ -1,4 +1,4 @@
-/say "Hello, you have been hacked"
+/say "Hello, you have been hacked again"
 /open "https://www.youtube.com"
 /delays 10
 # Put a hashtag for comments

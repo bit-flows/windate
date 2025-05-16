@@ -9,63 +9,63 @@
 <body>
   <div class="container docs-page">
     <h1>Windate Command Documentation</h1>
-    <p class="description">List of supported commands used by the Windate engine.</p>
+    <p class="description">Detailed reference for supported commands in the Windate project.</p>
 
     <div class="docs">
 
       <div class="command">
         <code>/sel [client_id]</code>
-        <p>Selects a specific client by ID. Subsequent commands apply only to the selected client.</p>
+        <p>Selects a specific client by ID. All following commands apply only to the selected client.</p>
       </div>
 
       <div class="command">
         <code>/rename [old_id];/:[new_id]</code>
-        <p>Renames the current client if its ID matches <code>old_id</code>. Updates and reloads the ID.</p>
+        <p>Renames the current client if its ID matches <code>old_id</code>Updates and reloads the ID to <code>new_id</code></p>
       </div>
 
       <div class="command">
         <code>/delays [seconds]</code>
-        <p>Delays execution for the specified time (in seconds).</p>
+        <p>Delays execution of the next command by the specified time in seconds.</p>
       </div>
 
       <div class="command">
-        <code>/open "[path]"</code>
-        <p>Opens a file or URL using the OS shell.</p>
+        <code>/open "[path_or_url]"</code>
+        <p>Opens the given file path or URL using the operating system's shell.</p>
       </div>
 
       <div class="command">
         <code>/say "[text]"</code>
-        <p>Uses Text-to-Speech (TTS) to speak the provided message aloud.</p>
+        <p>Speaks the specified text using the system's TTS engine.</p>
       </div>
 
       <div class="command">
         <code>/clipset "[text]"</code>
-        <p>Sets the clipboard to the given text.</p>
+        <p>Copies the given text to the system clipboard.</p>
       </div>
 
       <div class="command">
-        <code>/clipsetall "text1;/: text2;/: text3"</code>
-        <p>Sets the clipboard to each entry in sequence, separated by <code>;/:</code>.</p>
+        <code>/clipsetall "text1;/ :text2;/ :text3"</code>
+        <p>Splits text by <code>;/:</code> and copies each part to the clipboard in sequence.</p>
       </div>
 
       <div class="command">
         <code>/beep</code>
-        <p>Plays a system beep.</p>
+        <p>Triggers a system beep sound.</p>
       </div>
 
       <div class="command">
         <code>/show_virkey</code>
-        <p>Displays the virtual keyboard.</p>
+        <p>Displays the virtual keyboard with the placeholder <code>Hello</code></p>
       </div>
 
       <div class="command">
         <code>/hide_virkey</code>
-        <p>Hides the virtual keyboard.</p>
+        <p>Hides the virtual keyboard if it is currently shown.</p>
       </div>
 
       <div class="command">
-        <code>/alert "message;/: title"</code>
-        <p>Shows an alert popup. The first value is the message; the second (optional) is the title.</p>
+        <code>/alert "message;/:title"</code>
+        <p>Displays a popup alert. If only <code>message</code> is provided, shows it without a title. If <code>title</code> is included, it appears in the alert's title bar.</p>
       </div>
 
       <p style="margin-top: 2rem;">

@@ -1,6 +1,7 @@
 # 0
-#/say "Hello, you have been hacked"
 
-/beep
+
 # Rick Roll link
-/open "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+#/open "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+
+

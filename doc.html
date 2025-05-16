@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Windate Command Documentation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container docs-page">
+    <h1>Windate Command Documentation</h1>
+    <p class="description">List of supported commands used by the Windate engine.</p>
+
+    <div class="docs">
+
+      <div class="command">
+        <code>/sel [client_id]</code>
+        <p>Selects a specific client by ID. Subsequent commands apply only to the selected client.</p>
+      </div>
+
+      <div class="command">
+        <code>/rename [old_id];/:[new_id]</code>
+        <p>Renames the current client if its ID matches <code>old_id</code>. Updates and reloads the ID.</p>
+      </div>
+
+      <div class="command">
+        <code>/delays [seconds]</code>
+        <p>Delays execution for the specified time (in seconds).</p>
+      </div>
+
+      <div class="command">
+        <code>/open "[path]"</code>
+        <p>Opens a file or URL using the OS shell.</p>
+      </div>
+
+      <div class="command">
+        <code>/say "[text]"</code>
+        <p>Uses Text-to-Speech (TTS) to speak the provided message aloud.</p>
+      </div>
+
+      <div class="command">
+        <code>/clipset "[text]"</code>
+        <p>Sets the clipboard to the given text.</p>
+      </div>
+
+      <div class="command">
+        <code>/clipsetall "text1;/: text2;/: text3"</code>
+        <p>Sets the clipboard to each entry in sequence, separated by <code>;/:</code>.</p>
+      </div>
+
+      <div class="command">
+        <code>/beep</code>
+        <p>Plays a system beep.</p>
+      </div>
+
+      <div class="command">
+        <code>/show_virkey</code>
+        <p>Displays the virtual keyboard.</p>
+      </div>
+
+      <div class="command">
+        <code>/hide_virkey</code>
+        <p>Hides the virtual keyboard.</p>
+      </div>
+
+      <div class="command">
+        <code>/alert "message;/: title"</code>
+        <p>Shows an alert popup. The first value is the message; the second (optional) is the title.</p>
+      </div>
+
+      <p style="margin-top: 2rem;">
+        <a href="index.html" style="color: #3a82f7;">← Back to Download Page</a>
+      </p>
+
+    </div>
+  </div>
+</body>
+</html>

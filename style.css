@@ -12,7 +12,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;       /* Changed from height to min-height */
+  margin: 0;               /* Ensures no default margin causes issues */
+  padding: 2rem 1rem;      /* Adds top padding to avoid clipping */
+  box-sizing: border-box;  /* Ensures padding doesn't overflow */
 }
 
 .container {
@@ -21,7 +24,10 @@ body {
   background-color: #1e1e1e;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  width: 100%;
 }
+
 
 h1 {
   font-size: 2rem;
@@ -41,6 +47,22 @@ h1 {
   gap: 1rem;
   margin-bottom: 2rem;
 }
+
+
+.download-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.download-page .container {
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+
 
 .download-btn {
   display: block;
@@ -73,4 +95,49 @@ h1 {
 
 .small-link a:hover {
   text-decoration: underline;
+}
+
+
+.docs-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.docs {
+  margin-top: 2rem;
+  text-align: left;
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.docs h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+.command {
+  margin-bottom: 1rem;
+}
+
+.command code {
+  display: block;
+  font-family: monospace;
+  background-color: #2c2c2c;
+  color: #8ab4f8;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-bottom: 0.25rem;
+  white-space: pre-wrap;
+}
+
+.command p {
+  color: #cccccc;
+  font-size: 0.95rem;
+  margin-left: 0.5rem;
 }

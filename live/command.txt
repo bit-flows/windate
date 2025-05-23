@@ -6,6 +6,7 @@
 
 
 /sel mylap
-/open "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+/open "https://www.google.com"
+/open "C:\Users\"
 
 /alert "Meaasge;/:ALERT!"

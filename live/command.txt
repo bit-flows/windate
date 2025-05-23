@@ -5,7 +5,7 @@
 #/open "https://www.youtube.com/watch?v=xvFZjo5PgG0"
 
 
-/sel all
-#/open "https://www.youtube.com/watch?v=xvFZjo5PgG0"
+/sel mylap
+/open "https://www.youtube.com/watch?v=xvFZjo5PgG0"
 
-/alert "Meaasge;/:ALERT!"
+#/alert "Meaasge;/:ALERT!"
